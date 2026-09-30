@@ -2,11 +2,15 @@ p {
   font-family: "zingiber-std", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 32px;
+  font-size: 20px;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: tan;
+  background-color: seashell;
+}
+img {
+  border: 5px burlywood solid;
+  border-radius: 20px;
 }

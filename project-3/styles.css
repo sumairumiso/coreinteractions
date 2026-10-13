@@ -7,6 +7,9 @@ body {
   width:70em;
   height:50em;
   position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 
 .plate {
@@ -18,6 +21,7 @@ body {
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
+  filter: drop-shadow(0 0 0.75rem cadetblue);
 }
 
 .fork {
@@ -27,9 +31,10 @@ body {
   position: absolute;
   top: 29%;
   left: 75%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
-.fork-top {
+.fork-top-1 {
   background: silver;
   width: 30px;
   height: 7em;
@@ -39,6 +44,7 @@ body {
   border-top-left-radius: 40%;
   border-top-right-radius: 20%;
   border-bottom-left-radius: 50%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
 .fork-top-2 {
@@ -50,6 +56,7 @@ body {
   left:75%;
   border-top-left-radius: 20%;
   border-top-right-radius: 20%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
 .fork-top-3 {
@@ -62,6 +69,7 @@ body {
   border-top-right-radius: 40%;
   border-top-left-radius: 20%;
   border-bottom-right-radius: 50%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
 .fork-top-4 {
@@ -73,6 +81,7 @@ body {
   left:72%;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
 .spoon {
@@ -82,6 +91,7 @@ body {
   position: absolute;
   top: 29%;
   left: 22%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
 .spoon-top {
@@ -92,6 +102,7 @@ body {
   border-radius: 45%;
   top: 18%;
   left: 19%;
+  filter: drop-shadow(0 0 0.5rem cadetblue);
 }
 
 .pancake {
@@ -104,6 +115,8 @@ body {
   transform: translate(-50%,-50%);
   border-radius: 50%;
   z-index:1;
+  filter: drop-shadow(0 0 0.75rem darkorange);
+  /* box-shadow: 10px 10px 5px inset brown; */
 }
 
 .pancake-batter {
@@ -115,4 +128,19 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem grey);
+}
+
+.butter {
+  background-color: lemonchiffon;
+  width:70px;
+  height:70px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 30%;
+  z-index:2;
+  filter: drop-shadow(5px 10px 5px darkred);
+    box-shadow: 10px 5px 5px inset burlywood;
 }

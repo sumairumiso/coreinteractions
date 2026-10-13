@@ -2,6 +2,20 @@ body {
   background-color:white;
 }
 
+
+.stack-sans-text {
+  font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
 .blanket {
   background-color: powderblue;
   width:70em;

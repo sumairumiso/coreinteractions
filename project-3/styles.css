@@ -1,0 +1,118 @@
+body {
+  background-color:white;
+}
+
+.blanket {
+  background-color: powderblue;
+  width:70em;
+  height:50em;
+  position:absolute;
+}
+
+.plate {
+  background-color: oldlace;
+  width:500px;
+  height:500px;
+  border-radius: 50%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.fork {
+  background-color: silver;
+  width:30px;
+  height:22em;
+  position: absolute;
+  top: 29%;
+  left: 75%;
+}
+
+.fork-top {
+  background: silver;
+  width: 30px;
+  height: 7em;
+  position: absolute;
+  top:18%;
+  left:71%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 50%;
+}
+
+.fork-top-2 {
+  background: silver;
+  width: 30px;
+  height: 7em;
+  position: absolute;
+  top:18%;
+  left:75%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+.fork-top-3 {
+  background: silver;
+  width: 30px;
+  height: 7em;
+  position: absolute;
+  top:18%;
+  left:79%;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 50%;
+}
+
+.fork-top-4 {
+  background: silver;
+  width:6em;
+  height:2em;
+  position:absolute;
+  top:258px;
+  left:72%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.spoon {
+  background-color: silver;
+  width:30px;
+  height:22em;
+  position: absolute;
+  top: 29%;
+  left: 22%;
+}
+
+.spoon-top {
+  background-color: silver;
+  width: 6em;
+  height: 7em;
+  position: absolute;
+  border-radius: 45%;
+  top: 18%;
+  left: 19%;
+}
+
+.pancake {
+  background-color: chocolate;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  z-index:1;
+}
+
+.pancake-batter {
+  background-color: moccasin;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+}

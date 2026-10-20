@@ -12,7 +12,9 @@ padding-bottom: 10px;
   font-weight: 400;
   font-style: normal;
   color:#7A5144;
-  font-size:10rem;
+  font-size:12rem;
+  position:relative;
+  bottom:40px;
 }
 
 /* Core Interactions Lab */
@@ -23,7 +25,8 @@ padding-bottom: 10px;
   font-style: normal;
   color: #CC754F;
   font-size:1rem;
-
+  position:relative;
+  bottom:75px;
 }
 
 /* Projects */
@@ -32,8 +35,12 @@ padding-bottom: 10px;
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 24px;
+  color: #7A5144;
   order: 3;
-  padding:10px;
+  padding:0px 50px;
+  position:relative;
+  bottom:80px;
 }
 
 .projects {
@@ -50,6 +57,16 @@ padding-bottom: 10px;
   justify-content: center;
   min-height: 100vh;
 }
+
+.name {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width:100%;
+}
+
+
+/* SVG */
 
 /* Global Style */
 body {
